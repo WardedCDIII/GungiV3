@@ -1,4 +1,4 @@
-/// @description Detect Click and draw selection
+/// @description Detect and handle clicks
 
 
 var clicked = [roomToBoard(mouse_x),roomToBoard(mouse_y)];
@@ -13,5 +13,13 @@ else if isPiece(selected[0],selected[1]) {
 		ds_grid_move(global.Board,selected[0],selected[1],clicked[0],clicked[1]);
 		selected = [-1,-1];
 	}
+}
+// Clicked on already selected
+else if array_equals(clicked,selected) {
+	selected = [-1,-1];	
+}
+// Both are empty
+else {
+	selected = clicked;
 }
 
