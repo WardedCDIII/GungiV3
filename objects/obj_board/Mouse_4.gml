@@ -3,6 +3,10 @@
 
 var clicked = [roomToBoard(mouse_x),roomToBoard(mouse_y)];
 
+if isPiece(clicked[0],clicked[1]) {
+	show_debug_message(getName(clicked[0],clicked[1]));	
+}
+
 // Clicked on already selected
 if array_equals(clicked,selected) {
 	selected = [-1,-1];	

@@ -41,6 +41,7 @@
     {"id":{"name":"coordinateFunctions","path":"scripts/coordinateFunctions/coordinateFunctions.yy",},},
     {"id":{"name":"gridUtil","path":"scripts/gridUtil/gridUtil.yy",},},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
+    {"id":{"name":"pieceInfo","path":"scripts/pieceInfo/pieceInfo.yy",},},
     {"id":{"name":"spr_board","path":"sprites/spr_board/spr_board.yy",},},
     {"id":{"name":"spr_piece","path":"sprites/spr_piece/spr_piece.yy",},},
     {"id":{"name":"spr_selection","path":"sprites/spr_selection/spr_selection.yy",},},
